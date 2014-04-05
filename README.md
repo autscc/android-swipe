@@ -6,7 +6,9 @@ android-swipe
 
 > Simple example of effect navigation Swipe. The effect is based on the amount of messages that compose the List executed. The list of messages is defined by the programmer. The method to customize messages for testing is described below:
 
-`   /*Creating messages of example*/
+<pre>  
+    
+    /*Creating messages of example*/
     private void createMessages(List<Message> messages){
     	Message firstMSG = new Message(1, "Message One");
     	Message secondMSG = new Message(2, "Message Two");
@@ -20,7 +22,7 @@ android-swipe
     	messages.add(fifthMSG);
     } 
     
-`
+</pre>
 
 > The effect will based from the configuration this method. The main technologies used in the example were:
 
